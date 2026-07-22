@@ -52,6 +52,7 @@ header {
 
 
 header:has(.cabecera) {
+  min-height: 95dvh;
   min-height: 95vh;
   justify-content: space-between;
 }
@@ -415,8 +416,8 @@ nav {
 .contacto {
   position: relative;
   text-align: center;
-  margin: 10px 0;
-  padding: 0 20px;
+  margin: 40px 0;
+  padding: 0 20px 40px 20px;
 }
 
 .contacto h1,
@@ -474,7 +475,7 @@ nav {
 .campo {
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
